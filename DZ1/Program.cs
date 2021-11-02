@@ -27,7 +27,7 @@ namespace Domashechka
                     while ((str = reader.ReadLine()) != null)
                     {
 
-                    }
+                }
                     Console.ReadKey(true);
                 }
             }
