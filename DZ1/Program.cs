@@ -26,7 +26,8 @@ namespace Domashechka
                     string str = null;
                     while ((str = reader.ReadLine()) != null)
                     {
-
+                        if (regex.IsMatch(str))
+                            Console.WriteLine(str);
                     }
                     Console.ReadKey(true);
                 }
